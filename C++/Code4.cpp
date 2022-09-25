@@ -13,7 +13,7 @@ int main()
     int ch;
     float r;
     printf("Enter the numbers:\n");
-    scanf("%2f %2f",&a,&b);
+    scanf("%f %f",&a,&b);
     printf("The following are available:\n1;Add the numbers\n2;Sub the first from second\n3;Sub the second from first\n4;Multiply both numbers\n5;Devide first by second\n6;Devide second by first\n");
     printf("Please ENTER your choice:");
     scanf("%d",&ch);

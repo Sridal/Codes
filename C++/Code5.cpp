@@ -5,9 +5,9 @@ int main()
 {
 	float r, C;
     printf("Enter the number:");
-    scanf("%2f",&r);
+    scanf("%f",&r);
     C=circumference(r);
-    printf("Circumference=%f",C);
+    printf("Circumference=%2f",C);
     return(0);
 }
 int circumference(float r)
